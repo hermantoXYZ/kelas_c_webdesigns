@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #fff;
+    min-height: 88px;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ececee;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 35px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    padding: 8px 16px;
+    line-height: 24px;
+}
+
+.nav-link:hover {
+    border-radius: 20px;
+    background-color: #c3ff66;
+    color: #18181b;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    list-style: none;
+}
+
+.dropdown-link {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 15px;
+    display: block;
+}
+
+.dropdown-link:hover {
+    background-color: #f1f1f1;
+}
+
+.auth-buttons .btn {
+    padding: 8px 16px;
+    border-style: solid;
+    text-decoration: none;
+    border-width: 1px;
+    border-color: #ececee;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #18181b;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: -0.006em;
+}
+
